@@ -219,7 +219,7 @@ li[4]  # Raises an IndexError
 # The start index is included, the end index is not
 # (It's a closed/open range for you mathy types.)
 li[1:3]   # Return list from index 1 to 3 => [2, 4]
-li[2:]    # Return list starting from index 2 => [4, 3]
+li[2:]    # Return list starting from index 2 => [3, 4]
 li[:3]    # Return list from beginning until index 3  => [1, 2, 4]
 li[::2]   # Return list selecting elements with a step size of 2 => [1, 4]
 li[::-1]  # Return list in reverse order => [3, 4, 2, 1]
